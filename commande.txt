@@ -1,0 +1,2 @@
+docker run  -ti -v ~/dataset_projet_spark -v $(pwd)/data-ingestion-job/src:/src  --entrypoint bash stebourbi/sio:pyspark 
+/spark-2.4.4-bin-hadoop2.7/bin/spark-submit /src/process.py -v /data/full.csv -c /data/age.csv -o /data/output_final_result_parquet
