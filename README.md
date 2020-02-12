@@ -13,6 +13,7 @@ Pour réaliser cette exercice j'ai procéder de la manière suivante :
       la colonne du code_type_local nous permet de savoir le type du local tout étant codé sous forme integer, ceci facilitera letravail pour les datascientists)
       j'ai ajouté à cette selection une clause where pour avoir que les logements des particuliers.
   
-   6.    
+   6.  
+   
     
   
