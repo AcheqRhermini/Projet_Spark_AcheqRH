@@ -1,6 +1,6 @@
 # Projet_Spark_Ms_SIO
 Pour réaliser cette exercice j'ai procéder de la manière suivante :
-  1. J'ai mis en place l'environnement spark au travers de l'image docker (j'ai monté le docker sur un dossier contenant déja les deux datasets)
+  1. J'ai mis en place l'environnement spark on se basant sur l'image docker (j'ai monté le docker sur un dossier contenant déja les deux datasets)
   
   2. J'ai chargé les deux datasets dans des dataframes pour ingerer et manipuler les données.
   
