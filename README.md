@@ -1,6 +1,6 @@
 # Projet_Spark_Ms_SIO
 Pour réaliser cette exercice j'ai procéder de la manière suivante :
-  1. J'ai mis en place l'enviroennement spark au travers de l'image docker (j'ai monté le docker sur un dossier contenant déja les deux datasets)
+  1. J'ai mis en place l'environnement spark au travers de l'image docker (j'ai monté le docker sur un dossier contenant déja les deux datasets)
   
   2. J'ai aploade les deux dataset dans des dataframes pour pouvoir les manipuler.
   
@@ -13,7 +13,7 @@ Pour réaliser cette exercice j'ai procéder de la manière suivante :
       la colonne du code_type_local nous permet de savoir le type du local tout étant codé sous forme integer, ceci facilitera letravail pour les datascientists)
       j'ai ajouté à cette selection une clause where pour avoir que les logements des particuliers.
   
-   6.  
+   6. J'ai enfin fait un inner join pour produire un dataset qui va servir aux datascientists pour faire des prédictions en pranant en compte                 la corélation entre les prix des logements et la présence des ecoles.  
    
     
   
